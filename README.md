@@ -10,7 +10,7 @@ git clone https://github.com/ground-creative/py-ai-text-corrector.git
 ```
 2) Run the folliwng command to install dependencies
 ```
-cd py-corrector
+cd py-ai-text-corrector
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
