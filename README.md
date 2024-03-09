@@ -2,6 +2,10 @@
 
 This tool can correct text based on a combination of keyboard keys by making an api call to an AI engine.
 
+## Platforms
+
+- Linux
+
 ## Installation
 
 1) Clone the repository
@@ -28,7 +32,7 @@ pip install -r requirements.txt
 1) add the following to your crontab
 
 ```
-@reboot sleep 30 && export HOME={YOUR_HOME_DIR} && export DISPLAY=:{DISPLAY_NUMBER} && {PY_CORRRECTOR_PAT}/venv/bin/python {PY_CORRRECTOR_PAT}/main.py >> {PY_CORRRECTOR_PAT}/cron.log 2>&1
+@reboot sleep 30 && export HOME={YOUR_HOME_DIR} && export DISPLAY=:{DISPLAY_NUMBER} && {PY_CORRRECTOR_PAT}/venv/bin/python {PY_CORRRECTOR_PAT}/main.py >> {PY_CORRRECTOR_PAT}/logs/cron.log 2>&1
 ```
 
 ### Run command 
