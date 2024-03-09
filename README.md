@@ -10,7 +10,7 @@ This tool can correct text based on a combination of keyboard keys by making an 
 git clone https://github.com/ground-creative/py-ai-text-corrector.git
 ```
 
-2) Run the folliwng command to install dependencies
+2) Run the folliwng commands to install dependencies
 
 ```
 cd py-ai-text-corrector
@@ -23,8 +23,16 @@ pip install -r requirements.txt
 
 ## Running the script
 
+### With crontab
+
 1) add the following to your crontab
 
 ```
 @reboot sleep 30 && export HOME={YOUR_HOME_DIR} && export DISPLAY=:{DISPLAY_NUMBER} && {PY_CORRRECTOR_PAT}/venv/bin/python {PY_CORRRECTOR_PAT}/main.py >> {PY_CORRRECTOR_PAT}/cron.log 2>&1
+```
+
+### Run command 
+
+```
+python main.py
 ```
