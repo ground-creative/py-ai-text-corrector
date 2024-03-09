@@ -1,6 +1,6 @@
 # Python Text Corrector
 
-This tool can correct based on a combination of keyboard keys by making an api call to an AI engine.
+This tool can correct text based on a combination of keyboard keys by making an api call to an AI engine.
 
 ## Installation
 
